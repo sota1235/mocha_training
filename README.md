@@ -14,13 +14,27 @@ You can start writing ES2015 right now.
 
 ### Usage
 
-Write your script under `src/` folder.
+- Compile to ES5
 
-After, run `npm run build`.
+```shell
+$ npm run build
+```
 
-Then you can use transpiled files under `dest/` folder!
+- Run test
 
-Also you can run test. Run `npm run test`.
+Using mocha.
+
+```shell
+$ npm run test
+```
+
+- Check style
+
+Using ESLint and config of Aribnb.
+
+```shell
+$ npm run lint
+```
 
 ### Install
 
