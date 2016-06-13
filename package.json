@@ -1,0 +1,16 @@
+{
+  "name": "es2015_starter_kit",
+  "description": "Starter kit for writing es2015",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dest --source-maps-inline",
+    "watch": "babel src --out-dir dest --watch --source-maps-inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sota1235",
+  "license": "MIT"
+}
