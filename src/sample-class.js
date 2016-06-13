@@ -10,7 +10,7 @@ class Dog {
    * @param {string} name
    * @param {number} age
    */
-  constructor(name) {
+  constructor(name, age) {
     this.name = name;
     this.age  = age;
   }
