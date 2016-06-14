@@ -36,6 +36,14 @@ Using ESLint and config of Aribnb.
 $ npm run lint
 ```
 
+- Compress for Web Browser (By browserify)
+
+Target file is `src/index.js` and output file is `dest/bundle.js`.
+
+```shell
+$ npm run compress
+```
+
 ### Install
 
 `git clone {hoge} && npm i`
