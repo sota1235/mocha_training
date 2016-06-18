@@ -46,7 +46,7 @@ $ npm run compress
 
 ### Install
 
-`git clone {hoge} && npm i`
+`git clone git@github.com:sota1235/es2015_starter_kit.git && npm i`
 
 ### Contribution
 
