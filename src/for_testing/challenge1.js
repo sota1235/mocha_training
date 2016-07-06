@@ -45,3 +45,11 @@ export const double = (arg1, arg2) => {
   checkArgs(arg1, arg2);
   return arg1 * arg2;
 }
+
+/**
+ * @description 渡された引数の割り算の結果を返す
+ */
+export const devide = (arg1, arg2) => {
+  checkArgs(arg1, arg2);
+  return arg1 / arg2;
+}
