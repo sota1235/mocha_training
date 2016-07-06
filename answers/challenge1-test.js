@@ -22,6 +22,8 @@ describe('challenge1.js Test', () => {
     /** 異常系テスト */
     it('文字は受け付けないことをチェック', done => {
       assert.throws(add.bind(this, 'invalid', 'argument'), Error);
+      assert.throws(add.bind(this, 2, 'argument'), Error);
+      assert.throws(add.bind(this, 'argument', 1), Error);
       done();
     });
   });
