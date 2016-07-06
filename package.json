@@ -22,7 +22,8 @@
     "watch": "babel src --out-dir dest --watch --source-maps-inline",
     "compress": "browserify src/index.js -o dest/bundle.js -t babelify",
     "lint": "eslint src/",
-    "test": "mocha --compilers js:babel-register tests"
+    "test": "mocha --compilers js:babel-register tests",
+    "test-answer": "mocha --compilers js:babel-register answers"
   },
   "author": "sota1235",
   "license": "MIT"
