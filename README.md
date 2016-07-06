@@ -1,11 +1,11 @@
-ES2015 Starter Kit
+mocha training
 ====
 
-Setting files for writing ES2015.
+Training to write unit tests with using mocha.js
 
 ### Description
 
-You can start writing ES2015 right now.
+Let's polish the technique to write unit tests.
 
 ### Requirement
 
@@ -13,12 +13,6 @@ You can start writing ES2015 right now.
 - npm 3.9.3
 
 ### Usage
-
-- Compile to ES5
-
-```shell
-$ npm run build
-```
 
 - Run test
 
@@ -28,25 +22,9 @@ Using mocha.
 $ npm run test
 ```
 
-- Check style
-
-Using ESLint and config of Aribnb.
-
-```shell
-$ npm run lint
-```
-
-- Compress for Web Browser (By browserify)
-
-Target file is `src/index.js` and output file is `dest/bundle.js`.
-
-```shell
-$ npm run compress
-```
-
 ### Install
 
-`git clone git@github.com:sota1235/es2015_starter_kit.git && npm i`
+`git clone git@github.com:sota1235/mocha_training.git && npm i`
 
 ### Contribution
 
