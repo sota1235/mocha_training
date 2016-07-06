@@ -31,19 +31,23 @@ $ git clone git@github.com:sota1235/mocha_training.git && npm i
 ### Challenges
 
 - Level1
-Test src/challenge1/calc.js
+Test src/level1/calc.js
 Learning basic usage of mocha.js and assert.
 
 - Level2
-Test src/challenge2/string-util.js
+Test src/level2/string-util.js
 Learning TDD.
 
 - Level3
-Test src/challenge3/subscriber.js
-Learning spy with using sinon.js
+Test src/level3/string-util.js
+Learning TDD.
 
 - Level4
-Test src/challenge4/http-client.js
+Test src/level4/subscriber.js
+Learning spy with using sinon.js
+
+- Level5
+Test src/level5/http-client.js
 Learning how to using stub with proxyquire.js
 
 ### Contribution
