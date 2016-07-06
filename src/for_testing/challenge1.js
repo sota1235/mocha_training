@@ -51,5 +51,11 @@ export const double = (arg1, arg2) => {
  */
 export const devide = (arg1, arg2) => {
   checkArgs(arg1, arg2);
+
+  // 0で数は割れない
+  if (arg2 === 0) {
+    throw new Error;
+  }
+
   return arg1 / arg2;
 }
