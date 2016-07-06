@@ -9,13 +9,13 @@ describe('challenge1.js Test', () => {
       done();
     });
 
-    it('1 + 2 + 3 + 4 = 10 : 複数の引数をチェック', done => {
-      assert.equal(10, add(1, 2, 3, 4));
+    it('1 + (-1) = 0 : 負の数に対応しているかチェック', done => {
+      assert.equal(0, add(1, -1));
       done();
     });
 
-    it('1 + (-1) = 0 : 負の数に対応しているかチェック', done => {
-      assert.equal(0, add(1, -1));
+    it('2番目以降の引数を受け付けないことをチェック', done => {
+      assert.equal(3, add(1, 2, 3, 4));
       done();
     });
 
