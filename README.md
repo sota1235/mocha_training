@@ -24,7 +24,27 @@ $ npm run test
 
 ### Install
 
-`git clone git@github.com:sota1235/mocha_training.git && npm i`
+```shell
+$ git clone git@github.com:sota1235/mocha_training.git && npm i
+```
+
+### Challenges
+
+- Level1
+Test src/challenge1/calc.js
+Learning basic usage of mocha.js and assert.
+
+- Level2
+Test src/challenge2/string-util.js
+Learning TDD.
+
+- Level3
+Test src/challenge3/subscriber.js
+Learning spy with using sinon.js
+
+- Level4
+Test src/challenge4/http-client.js
+Learning how to using stub with proxyquire.js
 
 ### Contribution
 
