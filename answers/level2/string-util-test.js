@@ -14,10 +14,22 @@ describe('Unit tests for string-util', () => {
   });
 
   describe('isValidUrl() test', () => {
-    // TODO
+    it('http://hoge.comは有効なURL', () => {
+      assert(isValidUrl('http://hoge.com'));
+    });
+
+    it('https://hoge.comは有効なURL', () => {
+      assert(isValidUrl('https://hoge.com'));
+    });
+
+    it('javascript:alert("fuga");は無効なURL', () => {
+      assert(!isValidUrl('javascript:alert("fuga");'));
+    });
   });
 
   describe('getClassName() test', () => {
-    // TODO
+    it('".class"から"class"を取得', () => {
+      assert.equal('class', getClassName('.class'));
+    });
   });
 });
