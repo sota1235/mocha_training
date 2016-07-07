@@ -3,7 +3,7 @@
  */
 
 import assert from 'assert';
-import { add, minus, double, devide } from '../../src/level1/calc-improved';
+import { add, minus, double, devide } from '../../src/level1/calc';
 
 describe('challenge1.js Test', () => {
   describe('add() method test', () => {

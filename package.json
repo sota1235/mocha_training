@@ -20,7 +20,7 @@
     "build": "babel src --out-dir dest --source-maps-inline",
     "watch": "babel src --out-dir dest --watch --source-maps-inline",
     "lint": "eslint src/",
-    "test": "mocha --compilers js:babel-register tests",
+    "test": "mocha --compilers js:babel-register --recursive",
     "test-answer": "mocha --compilers js:babel-register --recursive answers"
   },
   "author": "sota1235",
