@@ -21,7 +21,7 @@
     "watch": "babel src --out-dir dest --watch --source-maps-inline",
     "lint": "eslint src/",
     "test": "mocha --compilers js:babel-register tests",
-    "test-answer": "mocha --compilers js:babel-register answers"
+    "test-answer": "mocha --compilers js:babel-register --recursive answers"
   },
   "author": "sota1235",
   "license": "MIT"

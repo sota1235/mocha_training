@@ -1,9 +1,9 @@
 /**
- * @description Unit tests for src/for_testing/challenge1.js
+ * @description Unit tests for src/level1/calc.js
  */
 
 import assert from 'assert';
-import { add, minus, double, devide } from '../src/for_testing/challenge1';
+import { add, minus, double, devide } from '../../src/level1/calc-improved';
 
 describe('challenge1.js Test', () => {
   describe('add() method test', () => {
@@ -112,6 +112,5 @@ describe('challenge1.js Test', () => {
       assert.throws(devide.bind(this, 2, 'argument'), Error);
       assert.throws(devide.bind(this, 'argument', 1), Error);
     });
-
   });
 });
