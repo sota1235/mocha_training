@@ -36,7 +36,7 @@ Learning basic usage of mocha.js and assert.
 
 - Level2
 Test src/level2/string-util.js
-Learning TDD.
+Learning testing method using RegExp.
 
 - Level3
 Test src/level3/string-util.js
